@@ -27,13 +27,13 @@ kramdown:
 # Site owner
 owner:
   name: Sivan Sasidharan
-  avatar: bio-photo.jpg
+  avatar: mine.jpg
   bio: "A consultant technologist with extensive experience in delivering business values by enabling focus, innovation, quality services at top class organizations.
 Interested in driving & aligning BigData strategy for large enterprises; identifying optimized architecture & choice of best fit technology."
-  email:sivan.consult@gmail.com
-  disqus-shortname:siva
-  twitter: sivans82
-  facebook: sivans82
+  email: sivan.consult@gmail.com
+  disqus-shortname: siva
+  twitter: sivansasidharan
+  facebook: sivansasidharan
   google:
    plus: #username
   analytics:
@@ -43,7 +43,7 @@ Interested in driving & aligning BigData strategy for large enterprises; identif
   bing-verify:
   github: sivansasidharan
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: sivans82@gmail.com
+  linkedin: sivansasidharan
   xing: #username
   instagram: #username
   lastfm: #username
