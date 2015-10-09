@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Technology Trends
 locale:           en_US
-url:
+url:		https://sivansasidharan.github.io
 
 
 # Jekyll configuration
@@ -26,23 +26,24 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Sivan Sasidharan
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
+  bio: "A consultant technologist with extensive experience in delivering business values by enabling focus, innovation, quality services at top class organizations.
+Interested in driving & aligning BigData strategy for large enterprises; identifying optimized architecture & choice of best fit technology."
+  email:sivan.consult@gmail.com
+  disqus-shortname:siva
+  twitter: sivans82
+  facebook: sivans82
   google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
+   plus: #username
+  analytics:
+  verify:
+  ad-client:
+  ad-slot:
   bing-verify:
-  github: #username
+  github: sivansasidharan
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: sivans82@gmail.com
   xing: #username
   instagram: #username
   lastfm: #username
