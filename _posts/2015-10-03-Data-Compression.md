@@ -33,15 +33,15 @@ How to ensure that the advantages of compression outweigh the disadvantages.
 
 Hadoop provides the user with some flexibility on which compression codec is used at each step of the data transformation process.Certain codecs are optimal for some stages, and non-optimal for others.
 
-1. zlib
++ zlib
 
 The major benefit of using this codec is that it is the easiest way to get the benefits of data compression from a cluster and on the job configuration standpoint—the zlib codec is the default compression option. From the data transformation perspective, this codec will decrease the data footprint on disk, but will not provide much of a benefit in terms of job performance.
 
-2. gzip
++ gzip
 
 The gzip codec available in Hadoop is the same one that is used outside of the Hadoop ecosystem. It is a common practice to use this as the codec for compressing the final output from a job, simply for the benefit of being able to share the compressed result with others (possibly outside of Hadoop) using a standard file format.
 
-3. bzip2
++ bzip2
 
 There are two important benefits for the bzip2 codec. 
 > First, if reducing the data footprint is a high priority, this algorithm will compress the data more than the default zlib option.
@@ -50,7 +50,7 @@ There are two important benefits for the bzip2 codec.
 
 A major characteristic of Hadoop is the idea of splitting the data so that they can be handled on each node independently. With the other compression codecs, there is an initial requirement to gather all parts of the compressed file in order to have all information necessary to decompress the data. With this format, the data can be decompressed in parallel. This splittable quality makes this format ideal for compressing data that will be used as input to a map function, either in a single step or as part of a series of chained jobs.
 
-4. LZO, LZ4, Snappy
++ LZO, LZ4, Snappy
 
 These three codecs are ideal for compressing intermediate data, the data output from the mappers that will be immediately read in by the reducers. All three codecs heavily favor compression speed over file size ratio, but the detailed specifications for each algorithm should be examined based on the specific licensing, cluster, and job requirements.
 
@@ -58,28 +58,33 @@ These three codecs are ideal for compressing intermediate data, the data output 
 
 Once the appropriate compression codec for any given transformation phase has been selected, there are a few configuration properties that need to be adjusted in order to have the changes take effect in the cluster.
 
-1. Intermediate data to reducer
++ Intermediate data to reducer
+
 {% highlight css %}
 mapreduce.map.output.compress = true
 (Optional) mapreduce.map.output.compress.codec = org.apache.hadoop.io.compress.SnappyCodec
 {% endhighlight %}
 
-2. Final output from a job
++ Final output from a job
+
 {% highlight css %}
 mapreduce.output.fileoutputformat.compress = true
 (Optional) mapreduce.output.fileoutputformat.compress.codec = org.apache.hadoop.io.compress.BZip2Codec
 {% endhighlight %}
 
-3. Within Hive & Pig 
++ Within Hive & Pig 
+
 These compression codecs are also available within some of the ecosystem tools like Hive and Pig. In most cases, the tools will default to the Hadoop-configured values for particular codecs, but the tools also provide the option to compress the data generated between steps.
 
 * Pig
+
 {% highlight css %}
 pig.tmpfilecompression = true
 (Optional) pig.tmpfilecompression.codec = snappy
 {% endhighlight %}
 
 * Hive
+
 {% highlight css %}
 hive.exec.compress.intermediate = true
 hive.exec.compress.output = true
