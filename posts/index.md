@@ -1,5 +1,5 @@
 ---
 layout: post-index
-title: All Posts
-excerpt: "A List of Posts"
+title: Technical References
+excerpt: "A List of all technical references"
 ---
