@@ -59,32 +59,27 @@ These three codecs are ideal for compressing intermediate data, the data output 
 Once the appropriate compression codec for any given transformation phase has been selected, there are a few configuration properties that need to be adjusted in order to have the changes take effect in the cluster.
 
 1. Intermediate data to reducer
-
 {% highlight css %}
 mapreduce.map.output.compress = true
 (Optional) mapreduce.map.output.compress.codec = org.apache.hadoop.io.compress.SnappyCodec
 {% endhighlight %}
 
 2. Final output from a job
-
 {% highlight css %}
 mapreduce.output.fileoutputformat.compress = true
 (Optional) mapreduce.output.fileoutputformat.compress.codec = org.apache.hadoop.io.compress.BZip2Codec
 {% endhighlight %}
 
 3. Within Hive & Pig 
-
 These compression codecs are also available within some of the ecosystem tools like Hive and Pig. In most cases, the tools will default to the Hadoop-configured values for particular codecs, but the tools also provide the option to compress the data generated between steps.
 
 * Pig
-
 {% highlight css %}
 pig.tmpfilecompression = true
 (Optional) pig.tmpfilecompression.codec = snappy
 {% endhighlight %}
 
 * Hive
-
 {% highlight css %}
 hive.exec.compress.intermediate = true
 hive.exec.compress.output = true
