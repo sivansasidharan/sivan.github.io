@@ -1,5 +1,7 @@
 # Site navigation links
 
-- title: Blog
-  url: /posts/
+- title: Technical References
+  url: /references/
 
+- title: Technical Writeups
+  url: /posts/
