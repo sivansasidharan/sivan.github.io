@@ -1,5 +1,5 @@
 ---
-layout: references
+layout: post
 category: refer
 title: "Hadoop Technical Updates / 17-11-2014"
 excerpt: "Hadoop Technical updates for Nov 2014"
