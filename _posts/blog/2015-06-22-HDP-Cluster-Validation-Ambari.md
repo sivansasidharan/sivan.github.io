@@ -1,8 +1,8 @@
 ---
 layout: post
 category: blog
-title: "Cluster Validation General/OS - HDP"
-excerpt: "Cluster validation methodologies & checklist"
+title: "Cluster Validation - Ambari - HDP"
+excerpt: "Cluster validation methodologies & ambari checklist"
 tags: [bigdata, hive, apache, hortonworks]
 Hortonworks: http://hortonworks.com/products/hortonworks-sandbox/
 comments: true
