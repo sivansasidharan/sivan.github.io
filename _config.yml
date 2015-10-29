@@ -23,12 +23,14 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
+redcarpet:
+    extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
 
 # Site owner
 owner:
   name: Sivan Sasidharan
   avatar: mine.jpg
-  bio: "A consultant technologist with extensive experience in delivering business values by enabling focus, innovation, quality services at top class organizations.
+  bio: "A consultant technologist with experience in delivering business values by enabling focus, innovation, quality services at top class organizations.
 Interested in driving & aligning BigData strategy for large enterprises; identifying optimized architecture & choice of best fit technology."
   email: sivan.consult@gmail.com
   disqus-shortname: siva
