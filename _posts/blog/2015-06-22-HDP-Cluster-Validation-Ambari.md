@@ -14,6 +14,7 @@ For every PS engagement that involves installation, upgrade, or migration, it is
 - Decreased volume to the Technical Support team
 
 > The Importance of the Checklist
+
 The installation validation checklist is a tool that you should refer to throughout the duration of your engagement.It was assembled by the Technical Support team and contains information and best practices gathered while working on multiple projects with multiple clients.The checklists provide information on key areas that you should focus on to ensure proper configuration of the components of your cluster. This will result in an operational Customer Environment.
 
 #### Ambari Checklist Items
