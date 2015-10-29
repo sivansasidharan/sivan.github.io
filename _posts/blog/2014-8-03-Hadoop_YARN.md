@@ -9,8 +9,6 @@ comments: true
 ---
 
 
-## Hadoop & YARN
-
 ### HDFS Federation
 
 Hadoop 2.x introduces HDFS Federation, a scaling mechanism for the NameNode. The new Hadoop infrastructure provides multiple NameNodes, as opposed to the single NameNode used in Hadoop 1.x, and enables the NameNodes to work independently of each other. This offers two key benefits:
@@ -106,4 +104,7 @@ The YARN lifecycle
 The AM starts a Container on each DataNode as instructed by the RM. The Container performs a task, as directed by the AM. As tasks are being performed by the Containers, the client application can request status updates directly from the ApplicationMaster.
 
 ![Reference](https://content.seertechsolutions.com/secure_content/hw/online_courses/SandboxPlus/YARN/HadoopYARNWINNE/course/media/01-RawContent/DevWIN/H2YARN/DevWIN-H2YARN-Les-image_6.png)
+
+***
+**Reference www.hortonworks.com***
 

@@ -63,6 +63,7 @@ hive.exec.post.hooks=com.xasecure.authorization.hive.hooks.XaSecureHivePostExecu
 hive.security.authorization.manager=com.xasecure.authorization.hive.authorizer.XaSecureHiveAuthorizerFactory
 {% endhighlight %}
 
+
     + Integrate Grant/Revoke permissions
         * New Hive Plugin enables Argus to handle Grant/Revoke permission
         * Argus will store Grant/Revoke policy and enforce it, with auditing
@@ -80,6 +81,8 @@ hive.security.authorization.manager=com.xasecure.authorization.hive.authorizer.X
 - Pluggable HDFS authorization is being added (HDFS-6826)
 - Argus will replace the JavaAgent based code injection with a custom authorization plugin
 
-** Still in Discussions **
+> Still in Discussions
 
 ***
+**Reference www.hortonworks.com**
+
