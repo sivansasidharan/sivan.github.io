@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 category: blog
 title: "Cluster Validation - Hive - HDP"
