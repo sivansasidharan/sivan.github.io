@@ -38,8 +38,6 @@ Big data clearly deals with issues beyond volume, variety and velocity to other 
 
     Follow the Big Data Innovation Summit on twitter #BIGDBN for more info.
 
-![Reference](https://content.seertechsolutions.com/secure_content/hw/online_courses/SandboxPlus/YARN/HadoopYARNWINNE/course/media/01-RawContent/DevWIN/H2YARN/DevWIN-H2YARN-Les-image_6.png)
-
 ***
 **Reference www.insidebigdata.com***
 
