@@ -21,7 +21,7 @@ Hadoop 2.x introduces HDFS Federation, a scaling mechanism for the NameNode. The
 
 The NameNodes are federated, which means they are independent and don’t require coordination with each other. DataNodes are used as common block storage by all NameNodes. Each DataNode registers with all NameNodes in the cluster and sends periodic heartbeats and block reports. Any NameNode can send commands to any DataNode.
 
-![Federated NameNodes :](https://content.seertechsolutions.com/secure_content/hw/online_courses/SandboxPlus/YARN/HadoopYARNWINNE/course/media/01-RawContent/DevWIN/H2YARN/DevWIN-H2YARN-Les-image_1.png)
+![Federated NameNodes :]({{ site.url }}/downloads/Hadoop-yarn-1.png)
 
 
 ### Multiple Namespaces
@@ -32,7 +32,7 @@ All files and directories belong to a Namespace. In older versions of Hadoop, an
 
 - File Management - It is now possible to associate Big Data with a Namespace, which makes it easier to manage and maintain files.
 
-![NameNodes each manage a single Namespace :](https://content.seertechsolutions.com/secure_content/hw/online_courses/SandboxPlus/YARN/HadoopYARNWINNE/course/media/01-RawContent/DevWIN/H2YARN/DevWIN-H2YARN-Les-image_2.png)
+![NameNodes each manage a single Namespace :]({{ site.url }}/downloads/Hadoop-yarn-2.png)
 
 
 ### HDFS High Availability
@@ -47,7 +47,7 @@ Two separate machines are configured as NameNodes, one in an Active state, the o
 
 Both nodes communicate with a group of separate daemons called JournalNodes. All Namespace modifications are logged durably to a majority (a quorum) of the JournalNode daemons. When the Standby Node checks the edits in the JournalNodes, it applies them to its own namespace.
 
-![Configuring automatic failover with ZooKeeper:](https://content.seertechsolutions.com/secure_content/hw/online_courses/SandboxPlus/YARN/HadoopYARNWINNE/course/media/01-RawContent/DevWIN/H2YARN/DevWIN-H2YARN-Les-image_4.png)
+![Configuring automatic failover with ZooKeeper:]({{ site.url }}/downloads/Hadoop-yarn-3.png)
 
 ** Note: In the event of a failover, before switching to Active state, the Standby must read all of the edits from the JournalNodes. This ensures that the Namespace state is fully synchronized before a failover occurs. **
 
@@ -85,7 +85,7 @@ YARN consists of the ResourceManager, the NodeManager, and the ApplicationMaster
 
 - Each per-application ApplicationMaster has the responsibility of negotiating appropriate resource containers from the ResourceManager, tracking their status, and working with the NodeManager(s) to execute and monitor the component tasks. The ApplicationMaster has primary responsibility for application fault tolerance. Because each application has its own ApplicationMaster, it is not a common bottleneck for the cluster. Each ApplicationMaster runs in a container on a NodeManager machine.
 
-![Reference:](https://content.seertechsolutions.com/secure_content/hw/online_courses/SandboxPlus/YARN/HadoopYARNWINNE/course/media/01-RawContent/DevWIN/H2YARN/DevWIN-H2YARN-Les-image_5.png)
+![Reference:]({{ site.url }}/downloads/Hadoop-yarn-4.png)
 
 ** Note : There is no JobTracker in Hadoop 2.x. YARN’s ResourceManager and ApplicationManager replaced the Hadoop 1.x JobTracker functionality. There is no TaskTracker in Hadoop 2.x. YARN’s NodeManager replaced the Hadoop 1.x TaskTracker functionality. **
 
@@ -103,7 +103,7 @@ The YARN lifecycle
 
 The AM starts a Container on each DataNode as instructed by the RM. The Container performs a task, as directed by the AM. As tasks are being performed by the Containers, the client application can request status updates directly from the ApplicationMaster.
 
-![Reference](https://content.seertechsolutions.com/secure_content/hw/online_courses/SandboxPlus/YARN/HadoopYARNWINNE/course/media/01-RawContent/DevWIN/H2YARN/DevWIN-H2YARN-Les-image_6.png)
+![Reference]({{ site.url }}/downloads/Hadoop-yarn-5.png)
 
 ***
 **Reference www.hortonworks.com***
