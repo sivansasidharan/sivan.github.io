@@ -2,7 +2,15 @@
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sivansasidharan.github.io/</loc>
+    <loc>http://sivansasidharan.me/</loc>
+    <changefreq>Daily</changefreq>
+  </url>
+    <url>
+    <loc>http://sivansasidharan.me/references/</loc>
+    <changefreq>Daily</changefreq>
+  </url>
+      <url>
+    <loc>http://sivansasidharan.me/posts/</loc>
     <changefreq>Daily</changefreq>
   </url>
 </urlset>
