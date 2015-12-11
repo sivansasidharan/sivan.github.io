@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://sivansasidharan.me/</loc>
+    <changefreq>Daily</changefreq>
+  </url>
+    <url>
+    <loc>http://sivansasidharan.me/references/</loc>
+    <changefreq>Daily</changefreq>
+  </url>
+      <url>
+    <loc>http://sivansasidharan.me/posts/</loc>
+    <changefreq>Daily</changefreq>
+  </url>
+</urlset>
+<!--<guid value="6429f5a9-55a7-4080-90b2-e146ba962d6a" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
