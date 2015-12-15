@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-title: "DATA COMPRESSION in Hadoop"
+title: "Data Compression in Hadoop"
 excerpt: "An Overview on data compression in hadoop "
 tags: [bigdata, hadoop, apache, hortonworks, compression]
 Hortonworks: http://hortonworks.com/products/hortonworks-sandbox/

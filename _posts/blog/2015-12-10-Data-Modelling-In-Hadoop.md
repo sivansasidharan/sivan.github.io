@@ -36,7 +36,7 @@ As with any data management system, metadata related to the stored data is often
 *Another important factor when making storage decisions with Hadoop is security and its associated considerations. This includes decisions around authentication, fine-grained access control, and encryption—both for data on the wire and data at rest.*
 
 *Reference -*
-[Cloudera](http://blog.cloudera.com)
-[Hortonworks](http://hortonworks.com)
-[O'Reilly](Hadoop Application Architectures by By Mark Grover, Ted Malaska, Jonathan Seidman, Gwen Shapira)
+[Cloudera](http://blog.cloudera.com) | 
+[Hortonworks](http://hortonworks.com) | 
+[O'Reilly - Hadoop Application Architectures](http://shop.oreilly.com/product/0636920033196.do)
 
