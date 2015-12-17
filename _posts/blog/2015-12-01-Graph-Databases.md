@@ -22,8 +22,8 @@ Exabyte’s of data stored per year — the IDC Digital Universe study projects 
 > #####Connectedness
 
 Over time data has evolved to be more and more interlinked and connected
-![Connectedness](/downloads/Neo2.png)
-![Connectedness](/downloads/Neo2_1.png)
+
+![Connectedness](/downloads/Neo2.png) ![Connectedness](/downloads/Neo2_1.png)
 
 > #####Semi-Structure
 
@@ -36,6 +36,7 @@ Accelerated by the decentralization of content generation that is the hallmark o
 
 * Architectural Changes
 Moving towards decoupled services with their own backend by the 2000s
+
 ![Connectedness](/downloads/Neo3.png)
 
 > #####Performance
@@ -45,7 +46,7 @@ We are building applications today that have complexity requirements that a Rela
 
 ---
 
-#####Challenges Faced by todays Enterprise
+#### Challenges Faced by todays Enterprise
 
 1. Fundamental challenge — there’s far more data than what can be handled
 2. The big data tidal wave that is transforming the database management industry, employee skill sets, and business strategy
