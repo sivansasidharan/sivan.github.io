@@ -10,7 +10,7 @@ comments: true
 
 #### What is Neo4j?
 Sponsored by Neo Technology, Neo4j is an open-source NoSQL graph database implemented in Java and Scala.
-_
+
     --> Neo4j is a Graph Database (with Lucene indexing)
     --> Non-relational (“#nosql”), transactional (ACID), embedded
     --> Data is stored as a Graph/Network 
@@ -21,7 +21,8 @@ _
     --> 32 Billion Nodes, 32 Billion Relationships,64 Billion Properties
     --> Neo4j is Open Source/Free (as in speech) Software AGPLv3 
         --> Commercial (“dual license”) license available
-_
+
+
 Some particular features make Neo4j very popular among users, developers, and DBAs:
 
 + Materializing of relationships at creation time, resulting in no penalties for complex runtime queries
@@ -93,14 +94,14 @@ Lowering total cost of ownership compared to traditional database management sy
 
 ##### References 
 
-   [Neo4j](http://neo4j.com/)
-   [Neotechnology](http://info.neotechnology.com/rs/neotechnology)
-   [Graphaware](http://graphaware.com/)
-   [Neo4j Developer](http://neo4j.com/developer/)
-   [Infoq](http://www.infoq.com/research)
-   [Slideshare](http://www.slideshare.net)
-   [Forbes](http://www.forbes.com/)
-   [Gartner](http://www.gartner.com/doc/2610218)
+[Neo4j](http://neo4j.com/)
+[Neotechnology](http://info.neotechnology.com/rs/neotechnology)
+[Graphaware](http://graphaware.com/)
+[Neo4j Developer](http://neo4j.com/developer/)
+[Infoq](http://www.infoq.com/research)
+[Slideshare](http://www.slideshare.net)
+[Forbes](http://www.forbes.com/)
+[Gartner](http://www.gartner.com/doc/2610218)
 
 
 

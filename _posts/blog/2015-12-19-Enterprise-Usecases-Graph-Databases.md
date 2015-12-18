@@ -1,3 +1,13 @@
+---
+layout: post
+category: blog
+title: "Enterprise Usecases - Graph Databases"
+excerpt: "Overview on few Enterprise Usecases leveraging Graphs"
+tags: [neo4j,bigdata, hadoop, apache, hortonworks, graphdatabases]
+Hortonworks: http://hortonworks.com/products/hortonworks-sandbox/
+comments: true
+---
+
 #### Enterprise Usecases
 
 > Network and Data Centre Management
@@ -74,12 +84,12 @@ Graphs are a good fit for such the densely connected data structures — Storing
 
 ##### References 
 
-   [Neo4j](http://neo4j.com/)
-   [Neotechnology](http://info.neotechnology.com/rs/neotechnology)
-   [Graphaware](http://graphaware.com/)
-   [Neo4j Developer](http://neo4j.com/developer/)
-   [Infoq](http://www.infoq.com/research)
-   [Slideshare](http://www.slideshare.net)
-   [Forbes](http://www.forbes.com/)
-   [Gartner](http://www.gartner.com/doc/2610218)
+[Neo4j](http://neo4j.com/)
+[Neotechnology](http://info.neotechnology.com/rs/neotechnology)
+[Graphaware](http://graphaware.com/)
+[Neo4j Developer](http://neo4j.com/developer/)
+[Infoq](http://www.infoq.com/research)
+[Slideshare](http://www.slideshare.net)
+[Forbes](http://www.forbes.com/)
+[Gartner](http://www.gartner.com/doc/2610218)
 
