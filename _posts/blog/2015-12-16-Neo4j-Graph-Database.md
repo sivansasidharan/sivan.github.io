@@ -88,7 +88,7 @@ Lowering total cost of ownership compared to traditional database management sy
     Scientific computing (especially bioinformatics)
     Indexing slow RDBMS and much more!
 
-[Refer - Enterprise Usecases - GraphDatabases](/blog/Graph-Databases/Enterprise-Usecases-Graph-Databases)
+[Refer - Enterprise Usecases - GraphDatabases](/blog/Enterprise-Usecases-Graph-Databases)
 
 ---
 
