@@ -48,23 +48,9 @@
         <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
       </footer>
     </div><!-- /.article-wrap -->
-    {% if post.comments %}
-      <div id="disqus_thread"></div>
-            <script>
-                var disqus_config = function () {
-                    this.page.url = {{ page.url }};
-                    this.page.identifier = {{ page.title }};
-                };
-                (function() {  // DON'T EDIT BELOW THIS LINE
-                    var d = document, s = d.createElement('script');
-                    
-                    s.src = '//me-sivansasidharan.disqus.com/embed.js';
-                    
-                    s.setAttribute('data-timestamp', +new Date());
-                    (d.head || d.body).appendChild(s);
-                })();
-            </script>
-{% endif %}
+      {% if site.owner.disqus-shortname and page.comments == true %}
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  {% endif %}
   </article>
 </div><!-- /#main -->
 

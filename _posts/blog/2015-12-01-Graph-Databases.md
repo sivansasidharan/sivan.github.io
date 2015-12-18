@@ -134,7 +134,18 @@ Matured graph databases available provide all the —ilities:ACID (Atomic, Cons
 
 _“Over 25 percent of enterprises will use graph databases by 2017.”_ Forrester Research
 
+---
 
+##### References 
+
+    http://neo4j.com/
+    http://info.neotechnology.com/rs/neotechnology 
+    http://graphaware.com/
+    http://neo4j.com/developer/
+    http://www.infoq.com/research
+    http://www.slideshare.net
+    http://www.forbes.com/
+    http://www.gartner.com/doc/2610218
 
 
 
