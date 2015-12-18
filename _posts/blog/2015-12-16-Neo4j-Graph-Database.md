@@ -10,7 +10,7 @@ comments: true
 
 #### What is Neo4j?
 Sponsored by Neo Technology, Neo4j is an open-source NoSQL graph database implemented in Java and Scala.
-
+_
     --> Neo4j is a Graph Database (with Lucene indexing)
     --> Non-relational (“#nosql”), transactional (ACID), embedded
     --> Data is stored as a Graph/Network 
@@ -21,7 +21,7 @@ Sponsored by Neo Technology, Neo4j is an open-source NoSQL graph database implem
     --> 32 Billion Nodes, 32 Billion Relationships,64 Billion Properties
     --> Neo4j is Open Source/Free (as in speech) Software AGPLv3 
         --> Commercial (“dual license”) license available
-
+_
 Some particular features make Neo4j very popular among users, developers, and DBAs:
 
 + Materializing of relationships at creation time, resulting in no penalties for complex runtime queries
@@ -29,6 +29,7 @@ Some particular features make Neo4j very popular among users, developers, and DB
 + All relationships in Neo4j are equally important and fast, making it possible to materialize and use new relationships later on to “shortcut” and speed up the domain data when new needs arise
 + Compact storage and memory caching for graphs, resulting in efficient scale-up and billions of nodes in one database on moderate hardware
 + Written on top of the JVM
+
 
 [About Neo4j](http://neo4j.com/developer/graph-database/#_what_is_neo4j)
 
@@ -85,20 +86,21 @@ Lowering total cost of ownership compared to traditional database management sy
     Web analytics
     Scientific computing (especially bioinformatics)
     Indexing slow RDBMS and much more!
+
 ![Refer - Enterprise Usecases - GraphDatabases](/blog/Graph-Databases/Enterprise-Usecases-Graph-Databases)
 
 ---
 
 ##### References 
 
-    http://neo4j.com/
-    http://info.neotechnology.com/rs/neotechnology 
-    http://graphaware.com/
-    http://neo4j.com/developer/
-    http://www.infoq.com/research
-    http://www.slideshare.net
-    http://www.forbes.com/
-    http://www.gartner.com/doc/2610218
+   [Neo4j](http://neo4j.com/)
+   [Neotechnology](http://info.neotechnology.com/rs/neotechnology)
+   [Graphaware](http://graphaware.com/)
+   [Neo4j Developer](http://neo4j.com/developer/)
+   [Infoq](http://www.infoq.com/research)
+   [Slideshare](http://www.slideshare.net)
+   [Forbes](http://www.forbes.com/)
+   [Gartner](http://www.gartner.com/doc/2610218)
 
 
 

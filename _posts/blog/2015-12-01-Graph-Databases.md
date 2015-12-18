@@ -138,14 +138,14 @@ _“Over 25 percent of enterprises will use graph databases by 2017.”_ Forrest
 
 ##### References 
 
-    http://neo4j.com/
-    http://info.neotechnology.com/rs/neotechnology 
-    http://graphaware.com/
-    http://neo4j.com/developer/
-    http://www.infoq.com/research
-    http://www.slideshare.net
-    http://www.forbes.com/
-    http://www.gartner.com/doc/2610218
+   [Neo4j](http://neo4j.com/)
+   [Neotechnology](http://info.neotechnology.com/rs/neotechnology)
+   [Graphaware](http://graphaware.com/)
+   [Neo4j Developer](http://neo4j.com/developer/)
+   [Infoq](http://www.infoq.com/research)
+   [Slideshare](http://www.slideshare.net)
+   [Forbes](http://www.forbes.com/)
+   [Gartner](http://www.gartner.com/doc/2610218)
 
 
 
