@@ -45,5 +45,5 @@ When machines do fail, replicas reconfigure themselves within a few seconds to m
 __Designed For Next Generation Hardware__ - Kudu is implemented in C++, so it can scale easily to large amounts of memory per node. And because key storage data structures are designed to be highly concurrent, it can scale easily to tens of cores. Kudu's storage is designed to take advantage of the IO characteristics of solid state drives, and it includes an experimental cache implementation with an in-memory columnar execution path.
 
 ##### References 
-[Apache KIDU](http://getkudu.io/)
+[Apache Kudu](http://getkudu.io/)
 [Cloudera](https://blog.cloudera.com/blog/2015/09/kudu-new-apache-hadoop-storage-for-fast-analytics-on-fast-data/)
