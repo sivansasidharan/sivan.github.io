@@ -38,19 +38,27 @@ According to Forbes:
 
 ##### Connected Platforms Need to Evolve
 
-	--> Connected Data Platforms need to handle distributed data across departments, servers and location. This data can be data-at-rest or data-in-motion. It needs to be done securely and cost effectively and take into account bandwidth and connectivity issues.
-	--> Connected Data Platforms need to go beyond Apache Hadoop and need enhanced data routing, transformation, and system mediation logic that is starting to emerge from projects like Apache NiFi which supports real time ingestion, pattern detection, routing, and analysis.
-	--> New capabilities and tools like Apache Zeppelin are needed to make the Connected Data Platforms more accessible
-	--> Connected Data Platforms need to be enterprise ready, enterprise scale, provide predictable performance, support data encryption, security, data governance, HA, DR, operations and debugging.
+--> Connected Data Platforms need to handle distributed data across departments, servers and location. This data can be data-at-rest or data-in-motion. It needs to be done securely and cost effectively and take into account bandwidth and connectivity issues.
+
+--> Connected Data Platforms need to go beyond Apache Hadoop and need enhanced data routing, transformation, and system mediation logic that is starting to emerge from projects like Apache NiFi which supports real time ingestion, pattern detection, routing, and analysis.
+
+--> New capabilities and tools like Apache Zeppelin are needed to make the Connected Data Platforms more accessible
+
+--> Connected Data Platforms need to be enterprise ready, enterprise scale, provide predictable performance, support data encryption, security, data governance, HA, DR, operations and debugging.
 
 
 ##### Six Requirements of Connected Data Platforms (as per Hortonworks research)
 
 1) Secure Data Ingestion: Can you easily and securely ingest data from anywhere across the Internet of Anything and siphon off data quickly, detecting interesting patterns?
+
 2) Actionable Intelligence: Can your platform provide real-time actionable intelligence based on both data-in-motion and data-at-rest?
+
 3) Distributed Connectivity: Can you connect, relate, or put in context all forms of data to provide 360 degrees of context that allows you to predict and personalize data for your modern data applications across all your channels?
+
 4) Mere Mortal Friendly: Does your platform provide data science tooling that make this easier for data scientists and professionals to find interesting patterns and gain actionable intelligence?
+
 5) Future Proof: Is your platform built on 100% open source technology allowing you to capitalize innovation everywhere economy?
+
 6) Enterprise Ready: Do you have enterprise-ready capabilities for security, high availability, disaster recovery and so on? Is the data secure? Is it access controlled? Are all compliance regulations taken care of? Is activity tracked with an audit trail? Is data controlled and managed through a lifecycle? Is your platform supported by experts?
 
 
