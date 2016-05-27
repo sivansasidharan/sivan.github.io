@@ -7,16 +7,15 @@ tags: [bigdata, hadoop, apache, hortonworks, cloudera,MEMSQL]
 MEMSQL: http://www.memsql.com/
 comments: true
 ---
-### MEMSQL & LAMBDA Architecture
 
-##### Lambda in a Nutshell
+#### Lambda in a Nutshell
 
 In the book, 'Big Data: Principles and best practices of scalable real-time data systems', Nathan Marz coined the term ‘Lambda Architecture’ to describe a generic, scalable and fault-tolerant data processing architecture based on his experience in working on distributed systems at Backtype and Twitter.
 
 The gist of the Lambda Architecture is to model everything that goes on in a complex computing system as an ordered, immutable log of events. Processing the data (totaling up the number of website visitors) is completed as a series of transformations that output to new tables or streams.It is important to keep the input unchanged. By breaking data processing into independent pieces, each with a defined input and output, you get closer to the ideal of purely functional programming. Writing and testing each piece is made simpler and parallelization can be automated. Parts of the dataflow can be replayed (when code changes or machines fail) and toyed together with other flows.
 Most companies have responded to the influx of data by adapting their data management strategy. Most enterprises need instant access to both historical and real-time data and when managing both these data concurrently, the Lambda Architecture is by far the most accepted today.
 
-##### MEMSQL with Simplified Lambda Architecture
+#### MEMSQL with Simplified Lambda Architecture
 
 MemSQL delivers real-time analytics on a rapidly changing data set, making it an ideal match for the characteristics of the Lambda Architecture speed service.It offers a complete solution: __the ability to handle millions of transactions per second while performing complex multi-table join queries.__
 
@@ -40,14 +39,15 @@ MemSQL offers several connectors for smooth integration with additional data sou
 
 2) MemSQL Loader : which can import data from HDFS, as well as import and synchronize data from Amazon S3.
 
-##### Applications & Usecases 
+#### Applications & Usecases
+
 __http://blog.memsql.com/pinterest-apache-spark-use-case/__
 
 __http://blog.memsql.com/coinalytics-blockchain-analytics/__
 
 Applications of today are built with infinite data sets in mind. As these real-time applications become the norm, and batch processing becomes a relic of the past, digital enterprises will implement memory-optimized, distributed data systems to simplify Lambda Architectures for real-time data processing and exploration.
 
-##### References
+#### References
 
 [Memsql-CaseStudies](http://www.memsql.com/case-studies/) 
 
