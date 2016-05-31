@@ -35,37 +35,31 @@ LinkedIn has a post about some difficult to debug issues with Kafka offset manag
 ***
 
 The Databricks blog has the third and final part of a series on using Apache Spark for Genome Variant Analysis. The post describes the needed preparation (converting files to Parquet and reading data into Spark RRDs), how to load genotype data, and running k-means clustering on the resulting genotypes to predict geographic population based on the genotype features.
-
 [Spark-Usecase](https://databricks.com/blog/2016/05/24/predicting-geographic-population-using-genome-variants-and-k-means.html)
 
 ***
 
 Much of the batch big data ecosystem has progressed from custom APIs back to SQL, so it'll be interesting to see if the same happens to stream processing frameworks as well. In this post, the Apache Flink team has written about their plans for supporting streaming SQL. Flink already has a Table API, and they're using Apache Calcite to add SQL support. For things like windowing, they're planning to use Calcite's streaming SQL extensions.  The initial SQL work is targeted for the 1.1.0 release, with much richer support in 1.2.0.
-
 [Apache Flink](http://flink.apache.org/news/2016/05/24/stream-sql.html)
 
 ***
 
 This post gives an introduction to the XML plugin for Apache Drill. The support doesn't yet ship with Drill, but it's relatively easy to compile the jar and configure XML support.
-
 [Apache Drill](https://www.mapr.com/blog/how-use-xml-plugin-apache-drill)
 
 ***
 
 The Hortonworks blog has a brief introduction to the architecture of the Ambari metrics system, which recently added support for Grafana as a front-end for dashboards. The system uses Apache Phoenix and Apache HBase as the system of record, so it scales horizontally.
-
 [Grafana - Amabri](http://hortonworks.com/blog/hood-ambari-metrics-grafana/)
 
 ***
 
 This tutorial describes how to use Spark SQL on Amazon EMR with Hue and Apache Zeppelin to run SQL queries across tab-delimited data stored in S3. The post finishes off by showing how to save data from Spark to DynamoDB.
-
 [Spark-SQL-for-ETL](http://blogs.aws.amazon.com/bigdata/post/Tx2D93GZRHU3TES/Using-Spark-SQL-for-ETL)
 
 ***
 
 The Heroku team has written about their experience with the latest version of Apache Kafka—the introduction of the timestamp field (an additional 8-bytes) led to some counter intuitive performance changes.
-
 [Apache Kafka -0.10-](https://engineering.heroku.com/blogs/2016-05-27-apache-kafka-010-evaluating-performance-in-distributed-systems/)
 
 ***
