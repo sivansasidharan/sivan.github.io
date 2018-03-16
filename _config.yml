@@ -25,6 +25,8 @@ kramdown:
 
 redcarpet:
     extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
+    
+remote_theme:jekyll-theme-cayman
 
 # Site owner
 owner:
