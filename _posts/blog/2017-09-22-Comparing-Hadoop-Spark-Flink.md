@@ -2,14 +2,12 @@
 layout: post
 category: blog
 title: Hadoop vs Spark vs Flink
-author: Sivan Sasidharan
-tags: 'bigdata, hadoop, apache spark, flink, hortonworks'
+tags: [bigdata, hadoop, apache spark, flink, hortonworks]
 excerpt: Comparing the Three Frameworks - Hadoop/Spark/Flink
-date: '2017-09-22'
+comments: true
 
 ---
 
-<h3 id="hadoop-vs-spark-vs-flink">Hadoop vs Spark vs Flink</h3>
 <blockquote>
 <p><strong>Data Processing</strong></p>
 </blockquote>
