@@ -671,4 +671,3 @@ The Apache License, Version 2.0 (ALv2) is a permissive free software license wri
 <a href="http://hadoop.apache.org/">Apache Hadoop</a><br>
 <a href="http://blog.cloudera.com/blog">Cloudera Blog</a><br>
 <a href="https://hortonworks.com/blog/">Hortonworks Blog</a></p>
-
