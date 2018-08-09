@@ -1,13 +1,14 @@
 ---
 layout: post
 category: blog
-title: "Hadoop vs Spark vs Flink"
-excerpt: "Comparing the Three Frameworks - Hadoop/Spark/Flink"
-tags: [bigdata, hadoop, apache spark, flink, hortonworks]
-comments: true
+title: Hadoop vs Spark vs Flink
+author: Sivan Sasidharan
+tags: 'bigdata, hadoop, apache spark, flink, hortonworks'
+excerpt: Comparing the Three Frameworks - Hadoop/Spark/Flink
+date: '2017-09-22'
+
 ---
 
-<hr>
 <h3 id="hadoop-vs-spark-vs-flink">Hadoop vs Spark vs Flink</h3>
 <blockquote>
 <p><strong>Data Processing</strong></p>
@@ -669,3 +670,4 @@ The Apache License, Version 2.0 (ALv2) is a permissive free software license wri
 <a href="http://hadoop.apache.org/">Apache Hadoop</a><br>
 <a href="http://blog.cloudera.com/blog">Cloudera Blog</a><br>
 <a href="https://hortonworks.com/blog/">Hortonworks Blog</a></p>
+
