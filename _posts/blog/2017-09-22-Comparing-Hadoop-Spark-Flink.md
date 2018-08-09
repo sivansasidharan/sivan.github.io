@@ -1,15 +1,13 @@
 ---
-
-
+layout: post
+category: blog
+title: "Hadoop vs Spark vs Flink"
+excerpt: "Comparing the Three Frameworks - Hadoop/Spark/Flink"
+tags: [bigdata, hadoop, apache spark, flink, hortonworks]
+comments: true
 ---
 
 <hr>
-<h2 id="layout-postcategory-blogtitle-hadoop-vs-spark-vs-flinkexcerpt-comparing-the-three-frameworks---hadoopsparkflinktags-bigdata-hadoop-apache-spark-flink-hortonworkscomments-true">layout: post<br>
-category: blog<br>
-title: "Hadoop vs Spark vs Flink"<br>
-excerpt: "Comparing the Three Frameworks - Hadoop/Spark/Flink"<br>
-tags: [bigdata, hadoop, apache spark, flink, hortonworks]<br>
-comments: true</h2>
 <h3 id="hadoop-vs-spark-vs-flink">Hadoop vs Spark vs Flink</h3>
 <blockquote>
 <p><strong>Data Processing</strong></p>
