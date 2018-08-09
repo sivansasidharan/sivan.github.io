@@ -22,8 +22,8 @@ comments: true
 </thead>
 <tbody>
 <tr>
-<td><code>Hadoop was designed for batch processing, that means it takes large dataset in input, all at once, processes it and produces the result. Batch processing is very efficient in processing in high volume data. Depending on the size of the data being processed and the computational power of the system, output can be delayed significantly</code></td>
-<td><code>Apache Spark is also a part of Hadoop Ecosystem, it is a batch processing System at heart too but it also supports stream processing</code></td>
+<td>Hadoop was designed for batch processing, that means it takes large dataset in input, all at once, processes it and produces the result. Batch processing is very efficient in processing in high volume data. Depending on the size of the data being processed and the computational power of the system, output can be delayed significantly</code></td>
+<td><code>Apache Spark is also a part of Hadoop Ecosystem, it is a batch processing System at heart too but it also supports stream processing</td>
 <td><code>Flink provides single runtime for the streaming and as well batch processing so one common runtime is utilized for data streaming application and batch processing application</code></td>
 </tr>
 </tbody>
