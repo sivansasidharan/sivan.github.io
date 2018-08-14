@@ -80,6 +80,7 @@ public final class JavaDirectKafkaWordCount {
     }
 } 
 </code></pre>
+
 <p>The jaas configuration file wraps the principal and its keytab path.<br>
 Here we have directly used the kafka service account. Ideally you should build the user account for this.</p>
 <pre><code>[root@local0 ~]# cat /usr/hdp/current/kafka-broker/config/kafka_client_jaas.confKafkaClient
