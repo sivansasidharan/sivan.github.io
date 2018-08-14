@@ -2,11 +2,9 @@
 layout: post
 category: blog
 title: Benchmarking Kafka
-author: Sivan Sasidharan
-tags: 'bigdata, hadoop, apache spark, flink, hortonworks'
 excerpt: Benchmarking Kafka on an HDP Cluster
-date: '2018-01-22'
-
+tags: [bigdata, hadoop, apache spark, flink, hortonworks]
+comments: true
 ---
 
 <p>Kafka is composed by producer, broker and consumer. HDP cluster only holds kafka broker, however producer and consumer more often imbeds in application implementation, and they take majority influence on entire Kafka performance. The following benchmark is based analysis on a few production grade clusters on HDP.</p>
