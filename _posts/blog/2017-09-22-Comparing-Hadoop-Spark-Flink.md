@@ -3,7 +3,7 @@ layout: post
 category: blog
 title: Hadoop vs Spark vs Flink
 excerpt: Comparing the Three Frameworks - Hadoop/Spark/Flink
-tags: 'bigdata, hadoop, apache spark, flink, hortonworks'
+tags: [bigdata, hadoop, apache spark, flink, hortonworks]
 comments: true
 ---
 
