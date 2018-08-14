@@ -3,7 +3,7 @@ layout: post
 category: blog
 title: Benchmarking Kafka
 excerpt: Benchmarking Kafka on an HDP Cluster
-tags: 'bigdata, hadoop, apache spark, flink, hortonworks'
+tags: [bigdata, hadoop, apache spark, flink, hortonworks]
 comments: true
 ---
 
