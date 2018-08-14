@@ -182,7 +182,7 @@ drwxr-xr-x - yarnhdfs0 2017-09-16 22:17 /user/yarn
 --conf "spark.executor.extraJavaOptions=-Djava.security.auth.login.config=kafka_client_jaas.conf" \
 --conf "spark.driver.extraJavaOptions=-Djava.security.auth.login.config=kafka_client_jaas.conf" \ 
 </code></pre>
-<p>If not sufficient paying attention to above points, you will likely come across error saying :<br>
+<p>If there's some configurations missed as detailed above , you will likely come across error(s) saying :<br>
 <em>org.apache.spark.SparkException:  Couldn’t connect to leader for topic</em></p>
 <p>or</p>
 <p><em>javax.security.auth.login.LoginException:Unable to obtain password from user</em><br>
