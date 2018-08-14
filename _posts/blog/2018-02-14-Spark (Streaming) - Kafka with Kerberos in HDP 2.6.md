@@ -1,6 +1,10 @@
 ---
-
-
+layout: post
+category: blog
+title: Spark (Streaming) - Kafka on Kerberized HDP
+excerpt: Spark (Streaming) - Kafka on Kerberized HDP
+tags: [bigdata, hadoop, apache spark, flink, hortonworks]
+comments: true
 ---
 
 <p>The common issues we probably encounter when doing debugging. The environment is HDP 2.6.1.0 with FreeIPA kerberized, Spark 1.6.3 and Kafka 0.10.1<br>
