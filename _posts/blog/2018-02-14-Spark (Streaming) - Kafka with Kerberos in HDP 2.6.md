@@ -9,7 +9,7 @@ comments: true
 
 <p>The common issues we probably encounter when doing debugging. The environment is HDP 2.6.1.0 with FreeIPA kerberized, Spark 1.6.3 and Kafka 0.10.1<br>
 Refer to the test code from below link [–&gt; added lines enabling it running in kerberized.]<br>
-<a href="https://github.com/eBay/Spark/blob/master/examples/src/main/java/org/apache/spark/examples/streaming/JavaDirectKafkaWordCount.java"></a></p>
+<a href="https://github.com/eBay/Spark/blob/master/examples/src/main/java/org/apache/spark/examples/streaming/JavaDirectKafkaWordCount.java">JavaDirectKafkaWordCount</a></p>
 <pre><code>package spark.example;
 import java.util.HashMap;
 import java.util.HashSet;
