@@ -1,6 +1,10 @@
 ---
-
-
+layout: post
+category: blog
+title: Performance tuning
+excerpt: Performance tuning - SPSS Analytic Server
+tags: [bigdata, hadoop, apache spark, SPSS, hortonworks,IBM]
+comments: true
 ---
 
 <p><strong>Performance tuning - SPSS Analytic Server</strong></p>
