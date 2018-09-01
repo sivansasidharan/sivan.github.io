@@ -16,7 +16,10 @@ comments: true
 <p>The relationship b/w batch size and throughput can be depicted by the following curve. When batch.size is increased by 10,000, the average throughput start increasing marginally, and keeps at 5 MB/sec or so. When batch.size grows by 2500, the average latency stop increasing and stay at 6 ms around.</p>
 <p><img src="/downloads/Kafka-benchmarking.jpg" alt="batch size and throughput"></p>
 <p>** Capture the average throughput and delay when gradually increasing batch size - use the <a href="http://kafka-producer-perf-test.sh">kafka-producer-perf-test.sh</a> scripts for the same.</p>
-<p><code>./kafka-producer-perf-test.sh -num-records 5000000 -record-size 1000 -topic testkafka -throughput 100000 -num-threads 2 -value-bound 5000 - print-metrics - producer-props bootstrap.servers=x.x.x.x:6667 compression.type=gzip max.in.flight.request.per.connection=1 batch.size = 2000 security.protocol=SASL_PLAINTEXT</code></p>
+<p><code>./kafka-producer-perf-test.sh -num-records 5000000 -record-size 1000</p>
+ <p>-topic testkafka -throughput 100000 -num-threads 2 -value-bound 5000 - print-metrics - producer-props </p>
+ <p>bootstrap.servers=x.x.x.x:6667 compression.type=gzip max.in.flight.request.per.connection=1 batch.size = 2000 </p>
+ <p>security.protocol=SASL_PLAINTEXT</code></p>
 <blockquote>
 <p><strong>By tuning <a href="http://linger.ms">linger.ms</a> we can promote the glaring gap.</strong></p>
 </blockquote>
