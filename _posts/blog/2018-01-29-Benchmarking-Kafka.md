@@ -16,9 +16,9 @@ comments: true
 <p>The relationship b/w batch size and throughput can be depicted by the following curve. When batch.size is increased by 10,000, the average throughput start increasing marginally, and keeps at 5 MB/sec or so. When batch.size grows by 2500, the average latency stop increasing and stay at 6 ms around.</p>
 <p><img src="/downloads/Kafka-benchmarking.jpg" alt="batch size and throughput"></p>
 <p>** Capture the average throughput and delay when gradually increasing batch size - use the <a href="http://kafka-producer-perf-test.sh">kafka-producer-perf-test.sh</a> scripts for the same.</p>
-<p><code>./kafka-producer-perf-test.sh -num-records 5000000 -record-size 1000</p>
- <p>-topic testkafka -throughput 100000 -num-threads 2 -value-bound 5000 - print-metrics - producer-props </p>
- <p>bootstrap.servers=x.x.x.x:6667 compression.type=gzip max.in.flight.request.per.connection=1 batch.size = 2000 </p>
+<p><code>./kafka-producer-perf-test.sh -num-records 5000000 -record-size 1000</code></p>
+<p><code> -topic testkafka -throughput 100000 -num-threads 2 -value-bound 5000 - print-metrics - producer-props </code></p>
+<p><code> bootstrap.servers=x.x.x.x:6667 compression.type=gzip max.in.flight.request.per.connection=1 batch.size = 2000 </code></p>
  <p>security.protocol=SASL_PLAINTEXT</code></p>
 <blockquote>
 <p><strong>By tuning <a href="http://linger.ms">linger.ms</a> we can promote the glaring gap.</strong></p>
@@ -29,12 +29,12 @@ comments: true
 </blockquote>
 <p>Use the below command to get the required metrics -</p>
 
-<p><code>java -Djava.security.auth.login.config=/temp/kafka_jaas.conf \ -Djava.security.krb5.conf=/etc/krb5.conf <\p>
-<p>\ -Djavax.security.auth.useSubjectCredsOnly=true \ -cp /usr/hdp/current/kafka-broker/libs/scala-library</p>
-<p>-2.11.8.jar:/temp/consumer/jopt-simple-5.0.4.jar:/usr/hdp/current/kafka-broker/libs/*:/temp/consumer/kafka_2.11-1.1.0-SNAPSHOT.jar </p>
-<p>kafka.tools.ConsumerPerformance \ --new-consumer --broker-list 10.0.0.18:6667 --topic chen --messages 5000000 </p>
- <p>--fetch-size 1000000 --show-detailed-stats --from-latest --print-metrics \ --consumer.config </p>
- <p>/usr/hdp/2.6.1.0-129/etc/kafka/conf.default/consumer.properties</code></p>
+<p><code>java -Djava.security.auth.login.config=/temp/kafka_jaas.conf \ -Djava.security.krb5.conf=/etc/krb5.conf </code></p>
+<p><code> \ -Djavax.security.auth.useSubjectCredsOnly=true \ -cp /usr/hdp/current/kafka-broker/libs/scala-library</code></p>
+<p><code> -2.11.8.jar:/temp/consumer/jopt-simple-5.0.4.jar:/usr/hdp/current/kafka-broker/libs/*:/temp/consumer/kafka_2.11-1.1.0-SNAPSHOT.jar </code></p>
+<p><code> kafka.tools.ConsumerPerformance \ --new-consumer --broker-list 10.0.0.18:6667 --topic chen --messages 5000000 </code></p>
+<p><code> --fetch-size 1000000 --show-detailed-stats --from-latest --print-metrics \ --consumer.config </code></p>
+<p><code>/usr/hdp/2.6.1.0-129/etc/kafka/conf.default/consumer.properties</code></p>
  
 <p>fetch-size &lt;Integer: size&gt; controls the number of bytes of messages to attempt to fetch in one request to the Kafka server.<br>
 Messages &lt;Long: count&gt; Required: the number of messages to consume</p>
