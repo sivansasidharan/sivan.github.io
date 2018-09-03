@@ -28,7 +28,14 @@ comments: true
 <p><strong>Kafka consumer focus on fetch-size and throughput.</strong></p>
 </blockquote>
 <p>Use the below command to get the required metrics -</p>
-<p><code>java -Djava.security.auth.login.config=/temp/kafka_jaas.conf \ -Djava.security.krb5.conf=/etc/krb5.conf \ -Djavax.security.auth.useSubjectCredsOnly=true \ -cp /usr/hdp/current/kafka-broker/libs/scala-library-2.11.8.jar:/temp/consumer/jopt-simple-5.0.4.jar:/usr/hdp/current/kafka-broker/libs/*:/temp/consumer/kafka_2.11-1.1.0-SNAPSHOT.jar kafka.tools.ConsumerPerformance \ --new-consumer --broker-list 10.0.0.18:6667 --topic chen --messages 5000000 --fetch-size 1000000 --show-detailed-stats --from-latest --print-metrics \ --consumer.config /usr/hdp/2.6.1.0-129/etc/kafka/conf.default/consumer.properties</code></p>
+
+<p><code>java -Djava.security.auth.login.config=/temp/kafka_jaas.conf \ -Djava.security.krb5.conf=/etc/krb5.conf <\p>
+<p>\ -Djavax.security.auth.useSubjectCredsOnly=true \ -cp /usr/hdp/current/kafka-broker/libs/scala-library</p>
+<p>-2.11.8.jar:/temp/consumer/jopt-simple-5.0.4.jar:/usr/hdp/current/kafka-broker/libs/*:/temp/consumer/kafka_2.11-1.1.0-SNAPSHOT.jar </p>
+<p>kafka.tools.ConsumerPerformance \ --new-consumer --broker-list 10.0.0.18:6667 --topic chen --messages 5000000 </p>
+ <p>--fetch-size 1000000 --show-detailed-stats --from-latest --print-metrics \ --consumer.config </p>
+ <p>/usr/hdp/2.6.1.0-129/etc/kafka/conf.default/consumer.properties</code></p>
+ 
 <p>fetch-size &lt;Integer: size&gt; controls the number of bytes of messages to attempt to fetch in one request to the Kafka server.<br>
 Messages &lt;Long: count&gt; Required: the number of messages to consume</p>
 <p>This gives the below information -</p>
